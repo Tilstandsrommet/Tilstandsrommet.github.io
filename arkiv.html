@@ -3,11 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Sindre's univers</title>
-
-  <script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-
   <style>
     /* Generell side-stil */
     body {
@@ -18,7 +13,6 @@
       font-family: "Times New Roman", Times, serif;
       color: #333333;
     }
-
     @font-face {
     font-family: 'Garamond';
     src: local('Garamond'),
@@ -30,12 +24,7 @@
     src: local('Benton Modern'),
        url('fonts/BentonModernRegular.otf') format('opentype');
     }
-
-    .equation {
-      text-align: center;
-      margin: 20px 0;
-    }
-
+    
     ul {
       list-style: none;
       margin: 12px;
@@ -51,15 +40,16 @@
       padding: 10px;
     }
 
+    /* IBM-liknende logo/overskrift til venstre */
     .top-left {
-      flex: 1;
-      color: #ffff00;
-      font-family: 'Benton Modern';
-      font-size: 6em;
-      font-style: italic;
-    }
+  flex: 1;
+  color: #ffff00;
+  font-family: 'Benton Modern';
+  font-size: 6em;
+  font-style: italic;
+}
 
-    /* Måned oppe til høyre */
+    /* For eksempel “November” øverst til høyre */
     .top-right {
       color: #ffff00;
       font-family: 'Benton Modern';
@@ -67,7 +57,7 @@
       text-align: right;
     }
 
-    /* Overskrift */
+    /* Eksempel på overskrift */
     h1 {
       color: #330066;
       margin-top: 20px;
@@ -130,18 +120,21 @@
 
   <!-- Innhold -->
   <div class="content">
-    <h1>Galileo og oddetallene og tyngdens aksellerasjon</h1>
+    <h1>Arkiv</h1>
     <p>
-        Galileo bruker pulsen sin til å telle intervaller og finner sammenhengen mellom oddetallene og konstant aksellerasjon.
-        Pulsen er ikke bra nok, så han bruker en pendel, men bare ved små utslag for at perioden skal holde seg stabil. Hva er perioden i de større utslagene? Jeg prøver å beregne med hamiltonlikninger
-        <div class="equation">
-            $$\frac{d^{2}\theta}{dt^{2}}+\frac{g}{l}\sin\theta=0$$
-        </div>
-        Kan man bruke elliptiske integral for å finne denne løsningen?
-        <div class="equation">
-            $$\int_{0}^{2\pi}\frac{d\theta}{\sqrt{1-k^{2}\sin^{2}\theta}}$$
-        </div>
+    Klippet fra min første hjemmeside/blog som jeg skrev da jeg fortsatt var student. Trodde jeg skulle skrive mye blog da, men gjorde ikke det. Blir sikkert ikke så mye mer denne gangen.
+
+
     </p>
+        <!-- Innhold -->
+    <div class="content">
+      <h1>Arkiv</h1>
+      <p>
+        Klippet fra min første hjemmeside/blog som jeg skrev da jeg fortsatt var student. Trodde jeg skulle skrive mye blog da, men gjorde ikke det. Blir sikkert ikke så mye mer denne gangen.
+      </p>
+      <img src="flyanimasjon.gif" alt="Flyanimasjon">
+      Jeg hadde nettopp lært meg om autopiloter i faget fartøystyring og fra en av bøkene i kurset. Det er en full fysikksimulering med aerodynamikk og stivt-legeme-dynamikk (finnes det et bedre navn?) og vær og vind.
+    </div>
   </div>
 
   <!-- Bunntekst -->
