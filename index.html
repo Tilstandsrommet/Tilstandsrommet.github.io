@@ -89,8 +89,10 @@
     .content {
       background-color: #ffffff; /* Hvit boks */
       border: 2px solid #999999; /* Tynn kant for 90-talls look */
-      margin: 30px;
+      margin: 30px auto; /* Sentrert horisontalt */
       padding: 20px;
+      max-width: 18cm; /* Maks bredde */
+      width: 100%; /* Krymper med vinduet */
     }
 
     /* Bunntekst */
@@ -148,13 +150,15 @@
 
   <!-- Bunntekst -->
   <div class="footer">
-    &copy; 1995 Tilstandsrommet - Alle rettigheter reservert
+
     <div class="sponsors" style="margin-top: 10px; text-align: center;">
       <a href="nerv.html">
         <img src="icons/NERV.webp" alt="Nerv" width="80" style="margin: 0 10px;">
       </a>
       <img src="icons/oak_ridge.jpg" alt="Oak ridge" width="150" style="margin: 0 10px;">
     </div>
+    <p>&copy; 1995 Tilstandsrommet - Alle rettigheter reservert</p>
+    
   </div>
 
   <script>
