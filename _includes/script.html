@@ -1,0 +1,10 @@
+<script>
+    const monthNames = [
+      "Januar", "Februar", "Mars", "April", "Mai", "Juni",
+      "Juli", "August", "September", "Oktober", "November", "Desember"
+    ];
+    document.addEventListener("DOMContentLoaded", function(){
+      const currentMonth = monthNames[new Date().getMonth()];
+      document.querySelector(".top-right").textContent = currentMonth;
+    });
+  </script>
