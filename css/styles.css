@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('stjernehimmel.jpg') no-repeat center center fixed;
+    background: url('/stjernehimmel.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: "Times New Roman", Times, serif;
     color: #333333;
