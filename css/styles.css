@@ -9,13 +9,13 @@ body {
   @font-face {
   font-family: 'Garamond';
   src: local('Garamond'),
-  url('fonts/Garamond.ttf') format('truetype');
+  url('/fonts/Garamond.ttf') format('truetype');
   }
 
   @font-face {
   font-family: 'Benton Modern';
   src: local('Benton Modern'),
-     url('fonts/BentonModernRegular.otf') format('opentype');
+     url('/fonts/BentonModernRegular.otf') format('opentype');
   }
   
   ul {
