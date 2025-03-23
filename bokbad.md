@@ -6,7 +6,7 @@ title: "Forsiden"
 # Bokbad
 Her er mattebøkene jeg leser for tiden. Jeg ville egentlig lese den helt til høyre, for den virker som en fin innføring i geometriske strukturer og en lett innføring i mangfoldigheter (som senere blir til differensialgeometri og relativitetsteori). 
 
-[![Mattebøker](mattebøker.png)](mattebøker.png)
+[![Mattebøker](img/mattebøker.png)](img/mattebøker.png)
 
 Jeg begynte på første kapittel og noterte alt jeg ikke har lært enda. Det ble en lang liste! Jeg forutså at dette kom til å skje, så jeg hadde allerede kjøpt en del bøker. 
 
