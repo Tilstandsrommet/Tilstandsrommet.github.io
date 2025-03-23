@@ -87,7 +87,12 @@ font-style: italic;
     max-width: 18cm; /* Maks bredde */
     width: 100%; /* Krymper med vinduet */
   }
-
+  .content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
   /* Bunntekst */
   .footer {
     margin: 10px;
