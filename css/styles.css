@@ -96,6 +96,8 @@ h1 {
 }
   
 .content img.icon {
+    width: auto;
+    height: 24px;
     display: inline-block;
     margin-right: 5px;
     vertical-align: middle;
