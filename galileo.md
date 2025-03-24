@@ -11,7 +11,7 @@ Galileo fant en merkelig sammenheng mellom oddetallene og akselerasjonen til rul
 
 Alle tidsintervallene var et oddetall! (på formen $o=2n+1:n\in \N$ for de som liker notasjon) Det høres rart ut. Kan naturen telle? Og hvorfor valgte ikke gud heller de pene partallene? Selvfølgelig fordi den akkumulerte strekningen er proposjonal med $t^2$ som i $x(t) = at^2$. Eller summen av oddetallene er et kvadrat:
 
-[![Summen av oddetallene er et kvadrat](img/sumavoddetall.png)](img/sumavoddetall.png)
+[<img src="img/sumavoddetall.png" style="max-width:50%;" alt="Summen av oddetallene er et kvadrat">](img/sumavoddetall.png)
 
 Galileo hadde ikke klokke, så han brukte først pulsen sin. Men den var så ustabil, så han begynte å bruke en pendel. Men pendelen måtte ha små utslag, for på store utslag, ble også den perioden ustabil.
 
