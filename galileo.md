@@ -9,7 +9,7 @@ Galileo fant en merkelig sammenheng mellom oddetallene og akselerasjonen til rul
 
 [![Galileos forsøk på rullende kuler](img/rullendeplan.png)](img/rullendeplan.png)
 
-Alle tidsintervallene var et oddetall! (på formen $o=2n+1:n\in \N$ for de som liker notasjon) Det høres rart ut. Kan naturen telle? Og hvorfor valgte ikke gud heller de pene partallene? Selvfølgelig fordi den akkumulerte strekningen er proposjonal med $t^2$ som i $x(t) = at^2$. Eller summen av oddetallene er et kvadrat:
+Alle tidsintervallene var et oddetall! (på formen $o=2n+1:n\in \natnums$ for de som liker notasjon) Det høres rart ut. Kan naturen telle? Og hvorfor valgte ikke gud heller de pene partallene? Selvfølgelig fordi den akkumulerte strekningen er proposjonal med $t^2$ som i $x(t) = at^2$. Eller summen av oddetallene er et kvadrat:
 
 [<img src="img/sumavoddetall.png" style="max-width:50%;" alt="Summen av oddetallene er et kvadrat">](img/sumavoddetall.png)
 
