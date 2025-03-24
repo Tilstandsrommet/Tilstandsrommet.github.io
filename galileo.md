@@ -39,6 +39,7 @@ H(p,q)=\frac{1}{2ml^{2}}p^{2}-mlg\cos q
 $$
 
 slik at strømlinjene kan beregnes med
+
 $$
 \begin{align}
 \dot{p}&=-mlg\sin q\\

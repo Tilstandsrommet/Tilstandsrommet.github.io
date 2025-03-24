@@ -4,3 +4,5 @@ kramdown:
   math_engine: mathjax
   math_engine_opts:
     preview: none
+  input: GFM
+  syntax_highlighter: rouge
