@@ -25,7 +25,7 @@ Men Galileo begynte jo med store vinkler. Jeg fikk en ide om å beregne perioden
 
 $$
 \begin{align}
-\dot{p}&=-\frac{\partial H}{\partial q}
+\dot{p}&=-\frac{\partial H}{\partial q}\\
 \dot{q}&=\frac{\partial H}{\partial p}
 \end{align}
 $$
@@ -41,7 +41,7 @@ $$
 slik at strømlinjene kan beregnes med
 $$
 \begin{align}
-\dot{p}&=-mlg\sin q
+\dot{p}&=-mlg\sin q\\
 \dot{q}&=\frac{p}{ml^{2}}
 \end{align}
 $$
