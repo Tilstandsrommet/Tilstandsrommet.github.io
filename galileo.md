@@ -53,7 +53,7 @@ Jeg kjørte dette i Julia og plottet en strømlinje:
 Julia har noen pakker, feks ``DiffEqPhysics.jl``, som gjør at man kan integrere hamiltonske systemer direkte, og benytte seg av den symplektiske geometrien til systemet for gunstigere energibevaring osv.
 
 Her er den totale energien
-```Julia
+```julia
 function Pendulum_Hamiltonian(p, q, parameters, time)
 	m,l,g = parameters
 	1/(2m*l^2)*p^2 - m*l*g*cos(q)
@@ -61,12 +61,12 @@ end
 ```
 
 Og så defineres problemet
-```Julia
+```julia
 prob = HamiltonianProblem(Pendulum_Hamiltonian, p0, q0, tspan, parameters)
 ```
 Og integreres numerisk med en symplektisk integrator og med en callback som gjør at integratoren stopper etter en runde i fasediagrammet
 
-```Julia
+```julia
 solution = solve(prob, SymplecticEuler(), dt=0.01, callback=Callback_pendulum)
 ```
 
