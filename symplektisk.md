@@ -5,6 +5,7 @@ title: "Arkiv"
 
 # Torsjonsvibrasjoner, stive likninger, og symplektisk integrasjon
 
+En foreløpig kladd
 - ODE45 og månelandingen
 - Foreleser i k-mek på NTNU 
 - Ingen integrator for annengradslikninger

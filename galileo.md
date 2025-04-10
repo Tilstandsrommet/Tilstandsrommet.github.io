@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Forsiden"
+title: "Galileo"
 ---
 
 # Galileo, oddetallene, og elliptiske integral
@@ -70,7 +70,6 @@ Og integreres numerisk med en symplektisk integrator og med en callback som gjø
 ```julia
 solution = solve(prob, SymplecticEuler(), dt=0.01, callback=Callback_pendulum)
 ```
-
-Kan man bruke elliptiske integral for å finne denne løsningen?
+Det var mye trøbbel for å beregne perioden. I gamledager hadde de ikke Julia og heller ikke symplektiske integratorer, men de klarte å beregne perioden analytisk... med elliptiske integral! Hvorfor har vi ikke lært dette på skolen? Andrew Wiles brukte elliptiske kurver til å bevise fermats siste teorem, men jeg vet ikke om det er relatert.
 
 $$\int_{0}^{2\pi}\frac{d\theta}{\sqrt{1-k^{2}\sin^{2}\theta}}$$

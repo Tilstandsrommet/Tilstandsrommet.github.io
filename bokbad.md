@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Forsiden"
+title: "Bokbad"
 ---
 
 # Bokbad
